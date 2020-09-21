@@ -28,7 +28,7 @@ public class AddTaskActivity extends AppCompatActivity {
     private int itemIDValue=0;
     private ArrayList<Items> items;
     private DBHelper dbHelper;
-    private  Boolean isupdate;
+    private boolean isupdate;
     private EditText metItem;
     private CheckBox mchitem;
     private String mtvItem;
@@ -74,6 +74,7 @@ public class AddTaskActivity extends AppCompatActivity {
             }
             taskid=task.taskID;
             items=taskitems;
+            itemIDValue++;
 
 
         }
